@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://i.gifer.com/4tyu.gif');
+    background-attachment: fixed;
+    background-size: 20%;
+}
+.header {
+    background-color: rgb(119, 0, 79);
+    color:  rgb(255, 255, 255);
+    font-size: 30px; 
+    height: 80px;
+    line-height: 80px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 980px; 
+    margin: 0 auto;
+    background-color: rgb(253, 209, 248);
+    border-left: 5px solid rgb(119, 0, 79);
+    border-right: 5px solid rgb(119, 0, 79);
+    padding-bottom: 60px;
+}
+.title{
+    font-size: 50px;
+    color:rgb(119, 0, 79);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    color:rgb(119, 0, 79);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+}
+.h{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    padding-bottom: 30px;
+    color:rgb(255, 129, 205);
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(119, 0, 79);
+    color:  rgb(255, 255, 255);
+    line-height:  50px;
+    padding-right: 20px;
+    font-size: 15px;  
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.title-top{
+    font-size: 30px;
+    color:rgb(119, 0, 79);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.menu a{
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.menu {
+    padding-left: 40px;
+    word-spacing: 1em;
+}
+a:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgb(119, 0, 79);
+}
+.podval{
+    text-align: right;
+}
+.b{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    padding-bottom: 30px;
+    color:rgb(255, 129, 205);
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
